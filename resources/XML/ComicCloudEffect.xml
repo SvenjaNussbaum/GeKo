@@ -11,12 +11,10 @@
         <Velocity>4</Velocity>
         <Physic>
             <PointGravity>
-                <Point x="0" y="-1" z="0"/>
-				<GravityImpact>0</GravityImpact>
+                <Gravity x="0" y="-1" z="0" w="-0"/>
                 <Speed>0.62</Speed>
                 <GravityRange>0</GravityRange>
                 <GravityFunction>0</GravityFunction>
-				<BackToSource>1</BackToSource>
             </PointGravity>
         </Physic>
         <AreaEmitter on="0"/>
@@ -52,12 +50,10 @@
         <Velocity>4</Velocity>
         <Physic>
             <PointGravity>
-                <Point x="0" y="-1" z="0"/>
-				<GravityImpact>0</GravityImpact>
+                <Gravity x="0" y="-1" z="0" w="-0"/>
                 <Speed>0.5</Speed>
                 <GravityRange>0</GravityRange>
                 <GravityFunction>0</GravityFunction>
-				<BackToSource>1</BackToSource>
             </PointGravity>
         </Physic>
         <AreaEmitter on="0"/>

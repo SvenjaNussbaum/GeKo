@@ -25,10 +25,10 @@
             <Accuracy>100</Accuracy>
         </AreaEmitter>
         <Texture>
-            <Tex>/ParticleSystem/particle/virus.png</Tex>
+            <Tex>/ParticleSystem/fire/flame01_L.png</Tex>
             <Size>
                 <UseTexture>1</UseTexture>
-                <ParticleSize>0.3</ParticleSize>
+                <ParticleSize>1</ParticleSize>
                 <BirthTime>3</BirthTime>
                 <DeathTime>3</DeathTime>
                 <BlendingTime>0</BlendingTime>
