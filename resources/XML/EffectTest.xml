@@ -1,0 +1,74 @@
+<Effect>
+    <Emitter>
+        <OutputType>0</OutputType>
+        <Position x="0" y="-0.5" z="0"/>
+        <EmitterLifetime>0</EmitterLifetime>
+        <EmitFrequency>0.25</EmitFrequency>
+        <ParticlesPerEmit>4</ParticlesPerEmit>
+        <ParticleLiftime>8</ParticleLiftime>
+        <ParticleMortal>1</ParticleMortal>
+        <UseGeometryShader>1</UseGeometryShader>
+        <Velocity>3</Velocity>
+        <Physic>
+            <DirectionGravity>
+                <Gravity x="0" y="-1" z="0" w="-0.1"/>
+                <Speed>0.40000001</Speed>
+            </DirectionGravity>
+        </Physic>
+        <AreaEmitter on="0"/>
+        <Texture>
+            <Tex>/ParticleSystem/smoke1_L.png</Tex>
+            <Scaling>
+                <UseTexture>1</UseTexture>
+                <ScalingSize>
+                    <Item>0.2</Item>
+                    <Item>1</Item>
+                    <Item>2.5</Item>
+                </ScalingSize>
+                <ScalingMoment>
+                    <Item>0</Item>
+                    <Item>0.2</Item>
+                    <Item>1</Item>
+                </ScalingMoment>
+                <BirthTime>2</BirthTime>
+                <DeathTime>3</DeathTime>
+                <RotateLeft>0</RotateLeft>
+                <RotationSpeed>0.30000001</RotationSpeed>
+            </Scaling>
+        </Texture>
+    </Emitter>
+    <Emitter>
+        <OutputType>0</OutputType>
+        <Position x="0" y="3" z="0"/>
+        <EmitterLifetime>0</EmitterLifetime>
+        <EmitFrequency>0.16599999368190765</EmitFrequency>
+        <ParticlesPerEmit>100</ParticlesPerEmit>
+        <ParticleLiftime>30</ParticleLiftime>
+        <ParticleMortal>1</ParticleMortal>
+        <UseGeometryShader>0</UseGeometryShader>
+        <Velocity>0</Velocity>
+        <Physic>
+            <DirectionGravity>
+                <Gravity x="0" y="-1" z="0" w="1"/>
+                <Speed>0.5</Speed>
+            </DirectionGravity>
+        </Physic>
+        <AreaEmitter on="1">
+            <AreaXY>0</AreaXY>
+            <AreaXZ>1</AreaXZ>
+            <Size>10</Size>
+            <Accuracy>10000</Accuracy>
+        </AreaEmitter>
+        <Texture>
+            <Tex>/ParticleSystem/particle.png</Tex>
+            <Size>
+                <UseTexture>1</UseTexture>
+                <ParticleSize>1</ParticleSize>
+                <BirthTime>2</BirthTime>
+                <DeathTime>0</DeathTime>
+                <RotateLeft>0</RotateLeft>
+                <RotationSpeed>0</RotationSpeed>
+            </Size>
+        </Texture>
+    </Emitter>
+</Effect>
